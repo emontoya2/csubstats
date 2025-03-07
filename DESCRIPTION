@@ -1,0 +1,26 @@
+Package: CSUBstats
+Title: Statistics @ CSUB: Functions and Data for Teaching
+Version: 0.0.0.9000
+Authors@R: 
+    person("Eduardo", "Montoya", email = "emontoya2@csub.edu", role = c("aut", "cre"))
+Description: CSUBstats provides a collection of statistical functions and datasets designed to support 
+    teaching and learning in both introductory and advanced statistics courses. Developed for use with 
+    "Teaching Modern Statistical Methods" and future educational resources, the package includes curated 
+    datasets, statistical functions, and visualization tools tailored for applied data analysis and instruction.
+License: GPL-3
+Encoding: UTF-8
+Imports:
+    stats,
+    graphics,
+    effectsize,
+    FSA,
+    utils,
+    lattice,
+    ggplot2,
+    ggpubr,
+    mosaic 
+Suggests:
+    dplyr,
+    readr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2

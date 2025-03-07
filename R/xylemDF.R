@@ -1,0 +1,46 @@
+#' Xylem Characteristics in Shrub Species
+#'
+#' @description This dataset provides measurements of key xylem traits (e.g., hydraulic efficiency,
+#' mechanical strength, water storage capacity) in 29 shrub species. These data were provided by Dr. Brandon Pratt
+#' for a case study exploring the trade-offs among xylem functions in response to water availability.
+#'
+#' @docType data
+#' @usage data(xylemDF)
+#'
+#' @format A data frame with 29 rows and 11 variables. The variables include:
+#' \describe{
+#'   \item{Species}{Species name of the shrub.}
+#'   \item{Family}{Plant family.}
+#'   \item{P75}{Water potential at 75 percent loss of hydraulic conductivity (MPa).}
+#'   \item{Ks}{Xylem-specific conductivity.}
+#'   \item{starch}{Starch content in xylem tissues (percent).}
+#'   \item{xylem_density}{Density of the xylem tissue (dry mass/tissue volume).}
+#'   \item{fiber_perc}{Proportion of fibers in the xylem tissue (percent).}
+#'   \item{vessel_perc}{Proportion of vessels in the xylem tissue (percent).}
+#'   \item{par_perc}{Proportion of parenchyma cells in the xylem tissue (percent).}
+#'   \item{Pmin}{Minimum dehydration level experienced by the plant (MPa).}
+#'   \item{water_storage}{Water storage capacity of the xylem tissue (change in relative water content per MPa).}
+#' }
+#'
+#' @details
+#' This dataset was used to investigate how xylem traits in shrub species relate to plant
+#' performance under varying water availability. In the corresponding case study, principal
+#' component analysis (PCA) was applied to these measurements to identify underlying patterns
+#' and dimensions governing xylem function. The variables represent key aspects of xylem
+#' physiology, including hydraulic efficiency (P75, Ks), energy storage (starch), structural
+#' properties (xylem density, fiber, vessel, parenchyma percentages), and drought tolerance
+#' (Pmin, water storage capacity).
+#'
+#' @source Dr. Brandon Pratt – Data for the case study on xylem characteristics in shrub species.
+#'
+#' @examples
+#' # Load the dataset
+#' data(xylemDF)
+#'
+#' # Display the first few rows
+#' head(xylemDF)
+#'
+#' # Summary of the dataset
+#' summary(xylemDF)
+#'
+"xylemDF"

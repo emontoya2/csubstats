@@ -1,0 +1,55 @@
+#' Daily Air Quality and Meteorological Measurements for 2021
+#'
+#' This dataset contains daily measurements of air quality and meteorological variables
+#' from monitoring stations located in three counties (Kern, Tulare, and Fresno) in California
+#' during the year 2021. It includes data on particulate matter (PM10), Air Quality Index (AQI),
+#' temperature, wind speed, and geographic location, and is used to explore questions such as
+#' whether daily PM10 levels differ by county and how PM10 relates to daily temperature.
+#'
+#' @docType data
+#' @usage data(dailyPM10.2021)
+#'
+#' @format A data frame with \eqn{n} rows and 9 variables:
+#' \describe{
+#'   \item{PM10}{Numeric. Daily PM10 concentration in micrograms per cubic meter (\eqn{\mu g/m^3}).}
+#'   \item{AQI}{Numeric. Air Quality Index value; higher values indicate greater health concerns.}
+#'   \item{temp}{Numeric. Daily average temperature in degrees Fahrenheit (\eqn{^\circ F}).}
+#'   \item{Latitude}{Numeric. Latitude of the monitoring station.}
+#'   \item{Longitude}{Numeric. Longitude of the monitoring station.}
+#'   \item{windspeed}{Numeric. Daily average wind speed (in knots).}
+#'   \item{state}{Character. State where the observation was recorded (e.g., "California").}
+#'   \item{county}{Factor or character. County where the measurement was taken (e.g., "Fresno").}
+#'   \item{City.Name}{Character. Name of the city or a descriptive label if not located in a city.}
+#' }
+#'
+#' @details
+#' The dataset is used in a case study on air pollution to examine:
+#' \itemize{
+#'   \item Differences in daily PM10 levels across the three counties.
+#'   \item The relationship between daily PM10 levels and temperature.
+#' }
+#'
+#' Daily measurements were collected from various monitoring stations and provide a basis
+#' for statistical analysis and graphical summaries. The data also include auxiliary meteorological
+#' information and geographic coordinates, which can be used to contextualize the air quality measurements.
+#'
+#' @source
+#' Data were obtained from the U.S. Environmental Protection Agency Air Data website
+#' (\url{https://www.epa.gov/outdoor-air-quality-data}) and AirNow (\url{https://www.airnow.gov/}).
+#'
+#' @examples
+#' \dontrun{
+#'   # Load the dataset
+#'   data(dailyPM10.2021)
+#'
+#'   # Display the first few observations
+#'   head(dailyPM10.2021)
+#'
+#'   # Summary statistics by county
+#'   library(dplyr)
+#'   dailyPM10.2021 %>%
+#'     group_by(county) %>%
+#'     summarize(mean_PM10 = mean(PM10, na.rm = TRUE),
+#'               mean_temp = mean(temp, na.rm = TRUE))
+#' }
+"dailyPM10.2021"
