@@ -11,11 +11,11 @@ A data frame with 29 rows and 11 variables. The variables include:
 \item{Family}{Plant family.}
 \item{P75}{Water potential at 75 percent loss of hydraulic conductivity (MPa).}
 \item{Ks}{Xylem-specific conductivity.}
-\item{starch}{Starch content in xylem tissues (percent).}
-\item{xylem_density}{Density of the xylem tissue (dry mass/tissue volume).}
-\item{fiber_perc}{Proportion of fibers in the xylem tissue (percent).}
-\item{vessel_perc}{Proportion of vessels in the xylem tissue (percent).}
-\item{par_perc}{Proportion of parenchyma cells in the xylem tissue (percent).}
+\item{starch}{Starch content in xylem tissues (\\\%).}
+\item{xylem_density}{Density of the xylem tissue (\eqn{dry mass/tissue  volume}).}
+\item{fiber_perc}{Proportion of fibers in the xylem tissue (\\\%).}
+\item{vessel_perc}{Proportion of vessels in the xylem tissue (\\\%).}
+\item{par_perc}{Proportion of parenchyma cells in the xylem tissue (\\\%).}
 \item{Pmin}{Minimum dehydration level experienced by the plant (MPa).}
 \item{water_storage}{Water storage capacity of the xylem tissue (change in relative water content per MPa).}
 }
