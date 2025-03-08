@@ -34,7 +34,7 @@
 #' 6 Afghanistan  Women Urban 1985 23.2
 #' }
 #'
-#' @source \href{https://hopkinsdiabetesinfo.org/glossary/body-mass-index/}{Body Mass Index (BMI) Glossary}
+#' @source “Rising Rural Body-Mass Index Is the Main Driver of the Global Obesity Epidemic in Adults.” 2019. Nature 569 (7755): 260–64
 #'
 #' @examples
 #' \dontrun{

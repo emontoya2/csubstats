@@ -15,7 +15,7 @@ A data frame with \emph{n} rows and 5 variables:
 }
 }
 \source{
-\href{https://hopkinsdiabetesinfo.org/glossary/body-mass-index/}{Body Mass Index (BMI) Glossary}
+“Rising Rural Body-Mass Index Is the Main Driver of the Global Obesity Epidemic in Adults.” 2019. Nature 569 (7755): 260–64
 }
 \usage{
 data(BMIcsdata)
