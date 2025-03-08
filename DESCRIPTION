@@ -1,9 +1,9 @@
-Package: CSUBstats
+Package: CSUBstatsstats
 Title: Statistics @ CSUB: Functions and Data for Teaching
 Version: 0.0.0.9000
 Authors@R: 
     person("Eduardo", "Montoya", email = "emontoya2@csub.edu", role = c("aut", "cre"))
-Description: CSUBstats provides a collection of statistical functions and datasets designed to support 
+Description: csubstats provides a collection of statistical functions and datasets designed to support 
     teaching and learning in both introductory and advanced statistics courses. Developed for use with 
     "Training modules on selected statistical methods" and future educational resources, the package includes curated 
     datasets, statistical functions, and visualization tools tailored for applied data analysis and instruction.
