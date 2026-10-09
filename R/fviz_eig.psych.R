@@ -28,7 +28,7 @@
 #'   \code{"Scree plot"}.
 #' @param xlab A character string for the x-axis label. If \code{NULL}, defaults to \code{"Dimensions"}.
 #' @param ylab A character string for the y-axis label. If \code{NULL}, it defaults to
-#'   \code{"Eigenvalue"} when \code{choice = "eigenvalue"} or \code{"Percentage of explained variances"}
+#'   \code{"Eigenvalue"} when \code{choice = "eigenvalue"} or \code{"Percentage of explained variance"}
 #'   when \code{choice = "variance"}.
 #' @param ggtheme A \code{ggplot2} theme object to apply to the plot. Default is \code{theme_minimal()}.
 #' @param ... Additional arguments passed to \code{ggpubr::ggpar} for further customization.
@@ -107,7 +107,7 @@ fviz_eig.psych <- function (X, choice = c("variance", "eigenvalue"), geom = c("b
   if (is.null(xlab))
     xlab <- "Dimensions"
   if (is.null(ylab))
-    ylab <- "Percentage of explained variances"
+    ylab <- "Percentage of explained variance"
   p <- p + labs(title = main, x = xlab, y = ylab)
   ggpar(p, ggtheme = ggtheme, ...)
 }

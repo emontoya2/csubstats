@@ -34,7 +34,7 @@ data(ssdsample)
 \description{
 A sample dataset from the K-12 School Shooting Database, which documents instances
 where a gun is brandished, fired, or a bullet hits K-12 school property. The data,
-covering incidents from January 1970 to November 2022, includes details on the timing,
+covering incidents from January 1970 to November 2022, include details on the timing,
 location, and characteristics of each incident, such as the number of victims, media
 attention level, school type, and information on the shooter and weapon used.
 }

@@ -12,7 +12,7 @@
 #'   \item{Survival}{A numeric variable indicating the survival percentage of the larvae under the given conditions.}
 #' }
 #'
-#' @details The Delta smelt is a small, endangered fish native to the Sacramento-San Joaquin River Delta. This dataset, referenced from Tigan et al. (2020), was used to explore whether variations in light intensity affect the survival rates of Delta smelt larvae. Light intensity is measured in \eqn{\mu mol/m^2/s} and turbidity is measured in nephelometric turbidity units (NTUs). The data provides a basis for understanding how environmental factors may impact the viability of early-stage larvae.
+#' @details The Delta smelt is a small, endangered fish native to the Sacramento-San Joaquin River Delta. This dataset, referenced from Tigan et al. (2020), was used to explore whether variations in light intensity affect the survival rates of Delta smelt larvae. Light intensity is measured in \eqn{\mu mol/m^2/s} and turbidity is measured in nephelometric turbidity units (NTUs). The data provide a basis for understanding how environmental factors may impact the viability of early-stage larvae.
 #'
 #' @source \url{https://calfish.ucdavis.edu/species/} and Tigan et al. (2020).  Data provided by Dr. Tien-Chieh Hung.
 #'

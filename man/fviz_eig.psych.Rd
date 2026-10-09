@@ -56,7 +56,7 @@ to the plot. Default is \code{FALSE}.}
 \item{xlab}{A character string for the x-axis label. If \code{NULL}, defaults to \code{"Dimensions"}.}
 
 \item{ylab}{A character string for the y-axis label. If \code{NULL}, it defaults to
-\code{"Eigenvalue"} when \code{choice = "eigenvalue"} or \code{"Percentage of explained variances"}
+\code{"Eigenvalue"} when \code{choice = "eigenvalue"} or \code{"Percentage of explained variance"}
 when \code{choice = "variance"}.}
 
 \item{ggtheme}{A \code{ggplot2} theme object to apply to the plot. Default is \code{theme_minimal()}.}

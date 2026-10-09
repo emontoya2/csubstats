@@ -42,7 +42,7 @@ When \code{PWC} is \code{TRUE}, the function computes multiple comparisons:
 }
 }
 \examples{
-# Example using the built-in iris dataset with equal variances assumption
+# Example using the built-in iris dataset assuming equal variances
 sfaov(Sepal.Length ~ Species, data = iris)
 
 # Example using Welch's ANOVA and performing post-hoc comparisons with the Games-Howell test

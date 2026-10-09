@@ -8,7 +8,7 @@
 #'
 #' @param formula An object of class \code{formula} specifying the model as
 #'   \code{response ~ explanatory}. The response should be the measured variable
-#'   and the explanatory should be a factor indicating group membership.
+#'   and the explanatory variable should be a factor indicating group membership.
 #' @param data A data frame in tidy format containing the variables referenced in
 #'   \code{formula}.
 #' @param first.level A character string specifying the level from the grouping
@@ -207,7 +207,7 @@ two.mean.test <- function(formula, data, first.level, welch = TRUE,
                     xlab = "Difference in means", groups = cat2, data = cprtmpdf,
                     breakds = brksall, nint = length(brksall))
 
-    cat("     Simulation based two-sample test for independent samples", "\n")
+    cat("     Simulation-based two-sample test for independent samples", "\n")
     cat("\n")
 
   } else {
@@ -260,7 +260,7 @@ two.mean.test <- function(formula, data, first.level, welch = TRUE,
                      })
     }
 
-    cat("     Theoretical-based two-sample test for independent samples", "\n")
+    cat("     Theory-based two-sample test for independent samples", "\n")
     cat("\n")
   }
 

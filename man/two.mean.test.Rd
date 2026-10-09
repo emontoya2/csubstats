@@ -21,7 +21,7 @@ two.mean.test(
 \arguments{
 \item{formula}{An object of class \code{formula} specifying the model as
 \code{response ~ explanatory}. The response should be the measured variable
-and the explanatory should be a factor indicating group membership.}
+and the explanatory variable should be a factor indicating group membership.}
 
 \item{data}{A data frame in tidy format containing the variables referenced in
 \code{formula}.}

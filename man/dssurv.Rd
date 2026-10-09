@@ -22,7 +22,7 @@ data(dssurv)
 This dataset contains information on the survival percentages of early-stage Delta smelt larvae (0–40 days post hatch) reared under different environmental conditions. The study investigated the influence of light intensity and water turbidity on larval survival, providing insights for conservation efforts of this endangered species.
 }
 \details{
-The Delta smelt is a small, endangered fish native to the Sacramento-San Joaquin River Delta. This dataset, referenced from Tigan et al. (2020), was used to explore whether variations in light intensity affect the survival rates of Delta smelt larvae. Light intensity is measured in \eqn{\mu mol/m^2/s} and turbidity is measured in nephelometric turbidity units (NTUs). The data provides a basis for understanding how environmental factors may impact the viability of early-stage larvae.
+The Delta smelt is a small, endangered fish native to the Sacramento-San Joaquin River Delta. This dataset, referenced from Tigan et al. (2020), was used to explore whether variations in light intensity affect the survival rates of Delta smelt larvae. Light intensity is measured in \eqn{\mu mol/m^2/s} and turbidity is measured in nephelometric turbidity units (NTUs). The data provide a basis for understanding how environmental factors may impact the viability of early-stage larvae.
 }
 \examples{
 \dontrun{

@@ -223,7 +223,7 @@ two.wilcox.test <- function(formula, data, first.level,
       }
     }
 
-    cat("     Theoretical-based two-sample test for independent samples", "\n")
+    cat("     Theory-based two-sample test for independent samples", "\n")
     cat("                             ", "\n")
 
   } else {
@@ -295,7 +295,7 @@ two.wilcox.test <- function(formula, data, first.level,
     hg <- histogram(~ randstats, type = "count", ylab = "Number of simulations", xlab = "Difference in means",
                     groups = cat2, data = cprtmpdf, breakds = brksall, nint = length(brksall))
 
-    cat("     Simulation based two-sample test for independent samples", "\n")
+    cat("     Simulation-based two-sample test for independent samples", "\n")
     cat("                             ", "\n")
   }
 
