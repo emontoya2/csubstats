@@ -9,8 +9,8 @@
 #'
 #' @format A data frame with 29 rows and 11 variables. The variables include:
 #' \describe{
-#'   \item{Species}{Species name of the shrub.}
-#'   \item{Family}{Plant family.}
+#'   \item{Species}{Factor. Species name of the shrub.}
+#'   \item{Family}{Factor. Plant family.}
 #'   \item{P75}{Water potential at 75 percent loss of hydraulic conductivity (MPa).}
 #'   \item{Ks}{Xylem-specific conductivity.}
 #'   \item{starch}{Starch content in xylem tissues (\\%).}

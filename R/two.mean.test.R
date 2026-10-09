@@ -96,7 +96,7 @@ two.mean.test <- function(formula, data, first.level, welch = TRUE,
     var.equal = FALSE
 
   first.level <- trimws(first.level, which = c("both"), whitespace = "[ \t\r\n]")
-  direction <- trimws(direction, which = c("both"), whitespace = "[ \t\r\n]")
+  direction <- match.arg(trimws(direction), c("two.sided", "greater", "less"))
 
   if (!(direction %in% c("greater", "less", "two.sided")))
     stop("Error: Direction must be either 'greater', 'less', or 'two.sided'! Try again :)")

@@ -28,7 +28,7 @@
 #' @source \url{https://gist.github.com/aschleg/ea7942efc6108aedfa9ec98aeb6c2096}
 #'
 #' @importFrom utils combn
-#' @importFrom stats ptukey qtukey
+#' @importFrom stats ptukey qtukey var
 #'
 #' @examples
 #' \dontrun{

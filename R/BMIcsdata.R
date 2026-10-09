@@ -10,7 +10,7 @@
 #' @docType data
 #' @usage data(BMIcsdata)
 #'
-#' @format A data frame with *n* rows and 5 variables:
+#' @format A data frame with 1,582 rows and 5 variables:
 #' \describe{
 #'   \item{Country}{A factor indicating the country of observation (e.g., "Afghanistan").}
 #'   \item{Sex}{A factor indicating the sex group, with levels "Men" and "Women".}

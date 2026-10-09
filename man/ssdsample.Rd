@@ -5,22 +5,22 @@
 \alias{ssdsample}
 \title{K-12 School Shooting Database Sample}
 \format{
-A data frame with 16 variables. The key variables are:
+A data frame with 2,018 rows and 16 variables. The key variables are:
 \describe{
 \item{Month}{Integer. Month of the incident (numeric representation).}
 \item{Day}{Integer. Day of the incident.}
 \item{Year}{Integer. Year when the incident occurred.}
-\item{Date}{Character. Date of the incident in MM/DD/YYYY format.}
+\item{Date}{Factor. Date of the incident in MM/DD/YYYY format.}
 \item{Victims_Killed}{Integer. Number of victims killed in the incident.}
 \item{Victims_Wounded}{Integer. Number of victims wounded in the incident.}
 \item{Number_Victims}{Integer. Total number of victims (sum of killed and wounded).}
 \item{Media_Attention}{Factor. Highest level of media coverage (e.g., Local, Regional, National).}
 \item{Quarter}{Factor. Quarter of the year when the incident occurred.}
-\item{State}{Character. U.S. state where the incident occurred.}
+\item{State}{Factor. U.S. state where the incident occurred.}
 \item{School_Level}{Factor. Educational level of the school targeted (e.g., High School, Elementary, Junior High, etc.).}
-\item{During_School}{Character. Indicates whether the incident occurred during school hours (Yes/No).}
+\item{During_School}{Factor. Indicates whether the incident occurred during school hours (Yes/No).}
 \item{Time_Period}{Factor. Specific time period during which the incident occurred (e.g., Morning Classes, Afternoon Classes, Sport Event, etc.).}
-\item{Age}{Character. Age of the shooter when known (may be missing for some incidents).}
+\item{Age}{Factor. Age of the shooter when known (may be missing for some incidents).}
 \item{Weapon_Type}{Factor. Type of weapon used (e.g., Handgun, Multiple Handguns, etc.).}
 \item{AgeGroup}{Factor. Age group of the shooter (e.g., Child, Teen, Adult; may be missing in some cases).}
 }
