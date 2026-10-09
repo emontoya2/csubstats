@@ -5,6 +5,10 @@ It supports [Training modules on selected statistical methods](https://emontoya2
 and other educational resources, with functions for comparing groups, regression,
 and exploratory data analysis.
 
+Several functions build on existing functions in R and other packages, bringing
+together statistical tests, summaries, and plots in a format designed for teaching
+and learning.
+
 The GitHub repository is named `csubstats`; the R package is named `CSUBstats`.
 Use the package name, including its capitalization, when loading it in R.
 
