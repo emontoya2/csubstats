@@ -7,12 +7,12 @@
 #' @docType data
 #' @usage data(BMIcsdataNT)
 #'
-#' @format A data frame with *n* rows and 5 variables:
+#' @format A data frame with 792 rows and 5 variables:
 #' \describe{
-#'   \item{Country}{A factor indicating the country of observation (e.g., "Afghanistan").}
-#'   \item{Sex}{A factor indicating the sex group, with levels "Men" and "Women".}
-#'   \item{Region}{A factor indicating the type of region, with levels "Rural" and "Urban".}
-#'   \item{yr.1985}{A numeric variable representing the average Body Mass Index for the group in 1985}
+#'   \item{Country}{A character variable indicating the country of observation (e.g., "Afghanistan").}
+#'   \item{Sex}{A character variable indicating the sex group, with values "Men" and "Women".}
+#'   \item{Region}{A character variable indicating the type of region, with values "Rural" and "Urban".}
+#'   \item{yr.1985}{A numeric variable representing the average Body Mass Index for the group in 1985.}
 #'   \item{yr.2017}{A numeric variable representing the average Body Mass Index for the group in 2017.}
 #' }
 #'

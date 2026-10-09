@@ -56,7 +56,9 @@
 slr.randtest <- function(formula, data = NULL, nshuffles = 0, direction = c("greater", "less", "two.sided"),
                          plt = FALSE) {
 
-  if(length(nshuffles) == 0)
+  direction <- match.arg(trimws(direction), c("greater", "less", "two.sided"))
+
+  if(length(nshuffles) == 0 || identical(nshuffles, 0) || identical(nshuffles, 0L))
     nshuffles <- 10
 
   if(nshuffles < 1 || nshuffles %% 1 != 0)

@@ -9,7 +9,7 @@
 #' @docType data
 #' @usage data(dailyPM10.2021)
 #'
-#' @format A data frame with \eqn{n} rows and 9 variables:
+#' @format A data frame with 3,115 rows and 9 variables:
 #' \describe{
 #'   \item{PM10}{Numeric. Daily PM10 concentration in micrograms per cubic meter (\eqn{\mu g/m^3}).}
 #'   \item{AQI}{Numeric. Air Quality Index value; higher values indicate greater health concerns.}
@@ -17,9 +17,9 @@
 #'   \item{Latitude}{Numeric. Latitude of the monitoring station.}
 #'   \item{Longitude}{Numeric. Longitude of the monitoring station.}
 #'   \item{windspeed}{Numeric. Daily average wind speed (in knots).}
-#'   \item{state}{Character. State where the observation was recorded (e.g., "California").}
-#'   \item{county}{Factor or character. County where the measurement was taken (e.g., "Fresno").}
-#'   \item{City.Name}{Character. Name of the city or a descriptive label if not located in a city.}
+#'   \item{state}{Factor. State where the observation was recorded (e.g., "California").}
+#'   \item{county}{Factor. County where the measurement was taken (e.g., "Fresno").}
+#'   \item{City.Name}{Factor. Name of the city or a descriptive label if not located in a city.}
 #' }
 #'
 #' @details

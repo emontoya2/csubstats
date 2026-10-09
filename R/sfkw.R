@@ -31,8 +31,8 @@
 #'   group = factor(c("A", "A", "A", "C", "C", "C"))
 #' )
 #'
-#' # Run the one-way ANOVA
-#' sfaov(outcome ~ group, data = data)
+#' # Run the Kruskal-Wallis test
+#' sfkw(outcome ~ group, data = data)
 #' }
 #'
 #' @export
@@ -73,7 +73,7 @@ sfkw <- function(formula,   data, PWC = FALSE ){
 
   cat("Kruskal-Wallis test statistic= ", obs.teststat, "\n")
   cat("p-value= ", pvalue, "\n")
-  cat("Null distribition is chi-squared with df= ", dfkw, "\n")
+  cat("Null distribution is chi-squared with df= ", dfkw, "\n")
   cat("============== \n")
 
   cat(" \n")

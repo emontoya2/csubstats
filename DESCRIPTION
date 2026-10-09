@@ -1,14 +1,19 @@
 Package: CSUBstats
-Title: Statistics @ CSUB: Functions and Data for Teaching
+Title: Statistical Functions and Data for Teaching
 Version: 0.0.0.9000
 Authors@R: 
     person("Eduardo", "Montoya", email = "emontoya2@csub.edu", role = c("aut", "cre"))
-Description: CSUBstats provides a collection of statistical functions and datasets designed to support 
+Description: A collection of statistical functions and datasets designed to support
     teaching and learning in both introductory and advanced statistics courses. Developed for use with 
     "Training modules on selected statistical methods" and future educational resources, the package includes curated 
     datasets, statistical functions, and visualization tools tailored for applied data analysis and instruction.
 License: GPL-3
+URL: https://github.com/emontoya2/csubstats, https://emontoya2.github.io/tmsm/
+BugReports: https://github.com/emontoya2/csubstats/issues
+Depends:
+    R (>= 3.5.0)
 Encoding: UTF-8
+LazyData: true
 Imports:
     stats,
     graphics,
@@ -21,6 +26,7 @@ Imports:
     mosaic 
 Suggests:
     dplyr,
-    readr
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
+Config/roxygen2/version: 8.1.0

@@ -1,3 +1,5 @@
 ^CSUBstats\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
+^\.github$
+^CONTRIBUTING\.md$

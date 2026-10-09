@@ -37,12 +37,11 @@ a standard Q-Q plot is created using \code{qqmath(~ resp, ...)}. In both cases, 
 a reference line (via \code{panel.qqmathline()}) to help assess normality.
 }
 \examples{
-\dontrun{
+set.seed(123)
 # Single Q-Q plot for a numeric vector 'x'
 normqqplot(~ x, data = data.frame(x = rnorm(100)))
 
 # Conditional Q-Q plot for a numeric vector 'x' grouped by factor 'g'
 normqqplot(x ~ g, data = data.frame(x = rnorm(100), g = rep(letters[1:2], each = 50)))
-}
 
 }

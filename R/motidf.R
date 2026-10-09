@@ -11,7 +11,7 @@
 #' @docType data
 #' @usage data(motidf)
 #'
-#' @format A data frame with 58 observations on 2 variables:
+#' @format A data frame with 47 observations on 2 variables:
 #' \describe{
 #'   \item{Score}{Numeric. The creativity score assigned to the subject's haiku.}
 #'   \item{Treatment}{Factor. The type of motivation questionnaire administered, with two levels:

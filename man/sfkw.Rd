@@ -39,8 +39,8 @@ data <- data.frame(
   group = factor(c("A", "A", "A", "C", "C", "C"))
 )
 
-# Run the one-way ANOVA
-sfaov(outcome ~ group, data = data)
+# Run the Kruskal-Wallis test
+sfkw(outcome ~ group, data = data)
 }
 
 }
